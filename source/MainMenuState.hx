@@ -41,9 +41,9 @@ using StringTools;
 class MainMenuState extends MusicBeatState
 {
 	public static var fridayVersion:String = '0.2.7.1';
-	public static var psychEngineVersion:String = '0.5.1';
+	public static var psychEngineVersion:String = '0.5.2h';
 	public static var beatEngineVersion:String = '0.0.4'; // this is used for Discord RPC
-	public static var beatEngineGit:String = '0.0.4';
+	public static var beatEngineGit:String = '1.0.0-git';
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -240,15 +240,15 @@ class MainMenuState extends MusicBeatState
 		versionShitpsych.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShitpsych);
 		#if !debug
-		versionShit.text = "BEAT! Engine v" + beatEngineGit;
+		versionShit.text = "Joalor64 Engine PLUS v" + beatEngineGit;
 		#end
 		#if debug
-		versionShit.text = "BEAT! Engine v" + beatEngineVersion + ' (debug)';
+		versionShit.text = "BEAT! Engine v" + beatEngineVersion + ' (Latest)';
 		#end
 		versionShitpsych.text = "Psych Engine v" + psychEngineVersion;
 		versionShit.screenCenter(X);
 		versionShitpsych.screenCenter(X);
-		var versionShitFriday:FlxText = new FlxText(12, FlxG.height - 24, 0, "FNF v" + fridayVersion, 12);
+		var versionShitFriday:FlxText = new FlxText(12, FlxG.height - 24, 0, "Friday Night Funkin v" + fridayVersion, 12);
 		versionShitFriday.scrollFactor.set();
 		versionShitFriday.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		versionShitFriday.screenCenter(X);
@@ -415,7 +415,7 @@ class MainMenuState extends MusicBeatState
 			{
 				if (optionShit[curSelected] == 'donate')
 				{
-					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
+					CoolUtil.browserLoad('https://sites.google.com/view/joalor64official-net6-deez/home');
 				}
 				else
 				{
