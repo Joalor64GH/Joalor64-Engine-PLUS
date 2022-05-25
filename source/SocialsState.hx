@@ -89,7 +89,7 @@ class SocialsState extends MusicBeatState
 			[
 				'Joalor64 Clan Discord Server',
 				'discord',
-				"BEAT!Engine's Discord Server!",
+				"My totally awesome Discord server.",
 				'https://discord.gg/ScMB5ZX2mE',
 				'4903FC'
 			],
