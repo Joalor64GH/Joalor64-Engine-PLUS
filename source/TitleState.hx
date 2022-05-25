@@ -146,7 +146,7 @@ class TitleState extends MusicBeatState
 		if (!closedState)
 		{
 			trace('checking for update');
-			var http = new haxe.Http("https://raw.githubusercontent.com/ShadowMario/FNF-PsychEngine/main/gitVersion.txt");
+			var http = new haxe.Http("https://raw.githubusercontent.com/Joalor64GH/J64E-PLUS/main/gitVersion.txt");
 
 			http.onData = function(data:String)
 			{
@@ -624,16 +624,16 @@ class TitleState extends MusicBeatState
 					}
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
+					createCoolText(['Created by'], 15);
 					#else
 					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
 					#end
 				// credTextShit.visible = true;
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('bb-panzu', 15);
+					addMoreText('J64E Devs', 15);
+					addMoreText('PE Devs', 15);
+					addMoreText('B!E Devs', 15);
 					#else
 					addMoreText('present');
 					#end
@@ -646,12 +646,12 @@ class TitleState extends MusicBeatState
 				// credTextShit.screenCenter();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Extra keys mod', 'by'], -40);
+					createCoolText(['Powered with', 'the one and only'], -40);
 					#else
 					createCoolText(['In association', 'with'], -40);
 					#end
 				case 8:
-					addMoreText('tposejank', -40);
+					addMoreText('BEAT! Engine', -40);
 					ngSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 9:
@@ -673,13 +673,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('Friday Night Funkin');
 				// credTextShit.visible = true;
 				case 15:
-					addMoreText('Night');
+					addMoreText('Joalor64 Engine');
 				// credTextShit.text += '\nNight';
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('PLUS'); // credTextShit.text += '\nFunkin';
 
 				case 17:
 					skipIntro();
