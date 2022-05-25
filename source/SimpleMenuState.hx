@@ -116,7 +116,7 @@ class SimpleMenuState extends MusicBeatState
 		versionShitpsych.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShitpsych);
 		#if !debug
-		versionShit.text = "BEAT! Engine v" + MainMenuState.beatEngineVersion;
+		versionShit.text = "Joalor64 Engine PLUS v" + MainMenuState.beatEngineVersion;
 		#end
 		#if debug
 		versionShit.text = "BEAT! Engine v" + MainMenuState.beatEngineVersion + ' (debug)';
