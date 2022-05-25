@@ -1,10 +1,10 @@
 name: Feature Request
-description: No, i won't add a Stage Editor to the Engine
+description: No, Stage Editor won't be added to the engine.
 labels: [enhancement]
 body:
   - type: textarea
     attributes:
-      label: What feature do you want to get added on the **base** engine?
+      label: What feature do you want to get added to this engine?
     validations:
       required: true
   - type: dropdown
@@ -13,7 +13,7 @@ body:
       label: To test your sight, and reliability, please select the option of what should NOT be requested.
       options:
         - Proper credit that was forgotten
-        - Thing that would not cause problems
+        - A thing that would not cause problems
         - Useful feature
         - Actual feedback
         - A good idea
