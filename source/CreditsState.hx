@@ -89,17 +89,17 @@ class CreditsState extends MusicBeatState
 			['Joalor64 Engine+ Team'],
 			[
 				'Joalor64 YT',
-				'none',
+				'joalor',
 				'Main Programmer',
-				'https://github.com/Joalor64GH',
-				'444444'
+				'https://www.youtube.com/channel/UC4tRMRL_iAHX5n1qQpHibfg',
+				'00FFF6'
 			],
 			[
 				'Bot 404',
-				'none',
+				'bot',
 				'Little helper, Drew his own icon',
-				'https://github.com/Dot404',
-				'444444'
+				'https://www.youtube.com/channel/UC9ntkZ4Nz3AVKrAnderJnOg',
+				'FF0040'
 			],
 			[''],
 			['BEAT! Engine Team'],
