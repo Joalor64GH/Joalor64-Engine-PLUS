@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="FNF: BEAT! Engine" file="BeatEngine" packageName="com.shadowmario.psychengine" package="com.shadowmario.psychengine" main="Main" version="0.2.7.1" company="ShadowMario" />
+	<app title="FNF: Joalor64 Engine PLUS" file="J64EPLUS" packageName="com.joalor64gh.j64eplus" package="com.joalor64gh.j64eplus" main="Main" version="0.2.7.1" company="ShadowMario" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -102,7 +102,7 @@
 	<assets path="assets/week6" library="week6" exclude="*.mp3" unless="web"/>
 
 	<assets path='example_mods' rename='mods' embed='false' if="MODS_ALLOWED"/>
-	<assets path='art/readme.txt' rename='do NOT readme.txt' />
+	<assets path='art/readme.txt' rename='PLEASE readme.txt' />
 	<!-- <template path='mods' /> -->
 
 	<!--assets path='example_mods/trickyrecharts' delete='true' unless='MODPACK'/-->
