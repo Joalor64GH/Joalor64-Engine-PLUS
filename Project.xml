@@ -104,7 +104,7 @@
 	<assets path='example_mods' rename='mods' embed='false' if="MODS_ALLOWED"/>
 	<assets path='art/readme.txt' rename='PLEASE readme.txt' />
 	<assets path='modlist.txt' rename='modsList.txt' />
-	<assets path='launch.txt' rename='Launch.bat' />
+	<assets path='launch.bat' rename='Launch.bat' />
 	<!-- <template path='mods' /> -->
 
 	<!--assets path='example_mods/trickyrecharts' delete='true' unless='MODPACK'/-->
