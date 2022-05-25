@@ -42,7 +42,7 @@ class MainMenuState extends MusicBeatState
 {
 	public static var fridayVersion:String = '0.2.7.1';
 	public static var psychEngineVersion:String = '0.5.2h';
-	public static var beatEngineVersion:String = '0.0.4'; // this is used for Discord RPC
+	public static var beatEngineVersion:String = '1.0.0-git'; // this is used for Discord RPC
 	public static var beatEngineGit:String = '1.0.0-git';
 	public static var curSelected:Int = 0;
 
@@ -243,7 +243,7 @@ class MainMenuState extends MusicBeatState
 		versionShit.text = "Joalor64 Engine PLUS v" + beatEngineGit;
 		#end
 		#if debug
-		versionShit.text = "BEAT! Engine v" + beatEngineVersion + ' (Latest)';
+		versionShit.text = "Joalor64 Engine PLUS v" + beatEngineVersion + ' (Latest)';
 		#end
 		versionShitpsych.text = "Psych Engine v" + psychEngineVersion;
 		versionShit.screenCenter(X);
