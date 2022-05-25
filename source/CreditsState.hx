@@ -102,6 +102,15 @@ class CreditsState extends MusicBeatState
 				'FF0040'
 			],
 			[''],
+			['Special Thanks'],
+			[
+				'You',
+				'face',
+				'For playing :)',
+				'https://joalor64.itch.io',
+				'7E00FF'
+			],
+			[''],
 			['BEAT! Engine Team'],
 			[
 				'Luis Com S',
