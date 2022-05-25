@@ -40,7 +40,7 @@ class OutdatedState extends MusicBeatState
 		if(!leftState) {
 			if (controls.ACCEPT || controls.BACK) {
 				leftState = true;
-				CoolUtil.browserLoad("https://github.com/Joalor64GH/J64E-PLUS/releases");
+				CoolUtil.browserLoad("https://github.com/Joalor64GH/Joalor64-Engine-PLUS/releases");
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				FlxTween.tween(warnText, {alpha: 0}, 1, {
 					onComplete: function (twn:FlxTween) {
