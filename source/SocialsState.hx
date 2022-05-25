@@ -87,32 +87,32 @@ class SocialsState extends MusicBeatState
 		var pisspoop:Array<Array<String>> = [
 			// Name - Icon name - Description - Link - HEX BG Color
 			[
-				'Discord',
+				'Joalor64 Clan Discord Server',
 				'discord',
 				"BEAT!Engine's Discord Server!",
-				'https://discord.gg/CqWbjb6w',
-				'5165F6'
+				'https://discord.gg/ScMB5ZX2mE',
+				'4903FC'
 			],
 			[
-				'Twitter',
+				'My Twitter',
 				'twitter',
-				"BEAT!Engine's Twitter Account!",
-				'https://twitter.com/beat_engine',
-				'3DADE2'
+				"Yes, I have a Twitter account.",
+				'https://twitter.com/fnfkeith19',
+				'0084FF'
 			],
 			[
-				'YouTube',
+				'My Youtube Channel',
 				'youtube',
-				"BEAT!Engine's YouTube Channel!",
-				'https://youtu.be/VfmpFCe7SPA',
-				'DD0004',
+				"Subscribe or perish.",
+				'https://www.youtube.com/channel/UC4tRMRL_iAHX5n1qQpHibfg',
+				'FF0000',
 			],
 			[
-				'Github',
+				'Github Profile',
 				'github',
-				"BEAT!Engine's Github Page",
-				"https://github.com/Luisinhi010/BEAT-engine/",
-				"161C21"
+				"My personal coding place.",
+				"https://github.com/Joalor64GH",
+				"797580"
 			]
 		];
 
