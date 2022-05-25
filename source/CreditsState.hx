@@ -86,7 +86,23 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [
 			// Name - Icon name - Description - Link - HEX BG Color
-			['BEAT!Engine Team'],
+			['Joalor64 Engine+ Team'],
+			[
+				'Joalor64 YT',
+				'none',
+				'Main Programmer',
+				'https://github.com/Joalor64GH',
+				'444444'
+			],
+			[
+				'Bot 404',
+				'none',
+				'Little helper, Drew his own icon',
+				'https://github.com/Dot404',
+				'444444'
+			],
+			[''],
+			['BEAT! Engine Team'],
 			[
 				'Luis Com S',
 				'luis',
@@ -145,18 +161,18 @@ class CreditsState extends MusicBeatState
 				'C30085'
 			],
 			[
-				'bbpanzu',
-				'bb-panzu',
-				'Ex-Programmer',
-				'https://twitter.com/bbsub3',
-				'389A58'
-			],
-			[
 				'Yoshubs',
 				'shubs',
 				'Additional Programmer',
 				'https://twitter.com/yoshubs',
 				'4494E6'
+			],
+			[
+				'bbpanzu',
+				'bb-panzu',
+				'Ex-Programmer',
+				'https://twitter.com/bbsub3',
+				'389A58'
 			],
 			[''],
 			['Psych Engine Contributors'],
