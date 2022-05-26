@@ -1350,10 +1350,10 @@ class PlayState extends MusicBeatState
 
 		#if !debug
 		if (FlxG.random.bool(0.1))
-			beWatermark.text = "AMOGUS Engine: v" + MainMenuState.beatEngineGit;
+			beWatermark.text = "AMOGUS Engine v" + MainMenuState.beatEngineGit;
 		else
-			beWatermark.text = "Joalor64 Engine PLUS: v" + MainMenuState.beatEngineGit;
-		peWatermark.text = "Psych Engine: v" + MainMenuState.psychEngineVersion;
+			beWatermark.text = "Joalor64 Engine PLUS v" + MainMenuState.beatEngineGit;
+		peWatermark.text = "Psych Engine v" + MainMenuState.psychEngineVersion;
 		#end
 
 		#if debug
@@ -3055,14 +3055,14 @@ class PlayState extends MusicBeatState
 		var divider:String = " // ";
 
 		scoreTxt.text = 'Score: ' + songScore;
-		scoreTxt.text += divider + 'Accuracy:' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%';
+		scoreTxt.text += divider + 'Accuracy: ' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%';
 
 		if (ratingFC == "" || songMisses > 0)
 			scoreTxt.text += '';
 		else
 			scoreTxt.text += ' [' + ratingFC + ']';
 
-		scoreTxt.text += divider + 'Combo Breaks:' + songMisses;
+		scoreTxt.text += divider + 'Combo Breaks: ' + songMisses;
 
 		if (ratingFC == "")
 			scoreTxt.text += divider + 'Rank: ?';
